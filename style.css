@@ -10,11 +10,11 @@ body{
 	background-color:var(--dark-brown)
 }
 
-#wrapper{
+.wrapper{
 	background-color:var(--dark-brown)
 }
 
-#mainContent{
+.mainContent{
 	margin-left: 3%;
 	margin-top: 5vh;
 	margin-bottom: 5vh;
@@ -24,7 +24,7 @@ body{
 	float: left;
 }
 
-#contact{
+.contact{
 	margin-top: 5vh;
 	margin-bottom: 5vh;
 	margin-right: 3%;
@@ -44,7 +44,7 @@ body{
 	border-radius: 27px;
 }
 
-#mainContent div{
+.mainContent div{
 	border-radius: 27px;
 
 	height: 86vh;
@@ -56,11 +56,14 @@ body{
 
 	
 }
+.hello{
+	margin-bottom: 5vh;
+}
 
-#expirience{
+.expirience{
 	margin-top: 5vh;
 	margin-bottom: 5vh;
 }
 
-#skills{
+.skills{
 }
