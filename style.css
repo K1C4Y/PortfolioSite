@@ -1,69 +1,7 @@
-:root{
-	--light-brown:#DE6927;
-	--dark-brown:#653A21;
+html {
+  padding: 0;
+  margin: 0;
+	box-sizing: content-box;
 }
 
-body{
-	margin:0px;
-	padding: 0px;
-	color: white;
-	background-color:var(--dark-brown)
-}
 
-.wrapper{
-	background-color:var(--dark-brown)
-}
-
-.mainContent{
-	margin-left: 3%;
-	margin-top: 5vh;
-	margin-bottom: 5vh;
-	
-	width: 65%;
-
-	float: left;
-}
-
-.contact{
-	margin-top: 5vh;
-	margin-bottom: 5vh;
-	margin-right: 3%;
-	margin-left: 70%;
-
-	width:24%;
-	height: 86vh;
-
-	padding-top: 2vh;
-	padding-bottom: 2vh;
-
-	padding-left: 2%;
-	padding-right: 2%;
-	position: fixed;
-
-	background-color: var(--light-brown);
-	border-radius: 27px;
-}
-
-.mainContent div{
-	border-radius: 27px;
-
-	height: 86vh;
-
-	background-color: var(--light-brown);
-
-	padding-top: 2vh;
-	padding-bottom: 2vh;
-
-	
-}
-.hello{
-	margin-bottom: 5vh;
-}
-
-.expirience{
-	margin-top: 5vh;
-	margin-bottom: 5vh;
-}
-
-.skills{
-}
